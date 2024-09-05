@@ -45,7 +45,7 @@ public class day4 {
                 System.exit(0);
 
             default:
-                System.out.println("Menu Tidak Valid.");
+                System.out.println("Menu Tidak Ada.");
                 System.exit(0);
 
         }
