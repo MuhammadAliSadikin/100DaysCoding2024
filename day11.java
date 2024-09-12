@@ -12,7 +12,8 @@ public class day11 {
         short g = 50;
         short h = 60;
         short i = 70;
-        short j = 32767;
+        short j = 80;
+        short k = 32767;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -23,5 +24,6 @@ public class day11 {
         System.out.println(h);
         System.out.println(i);
         System.out.println(j);
+        System.out.println(k);
     }
 }
