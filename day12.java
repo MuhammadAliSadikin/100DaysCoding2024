@@ -4,18 +4,20 @@ public class day12 {
 
     public static void main(String[] args) {
         /* Variabel tipe data:integer
-            Bilangan Ganjil*/
-        int jambu = 7; int apel = 5;
-        int rambutan = 9; int mangga = 1; 
-        int nanas = 3; 
-        int delima = 27;
-        // Bilangan Genap
-        int alpukat,pisang,jeruk,markisa;
-        alpukat = 8;
-        pisang = 10;
-        jeruk = 4;
-        markisa = 100;
-        // Bilangan Prima
+            Deklarasi Variabel*/
+        int jambu,apel,rambutan,mangga,nanas,delima;
+        jambu = 7; 
+        apel = 5;
+        rambutan = 9;
+        mangga = 1; 
+        nanas = 3;
+        delima = 27;
+        // Inisialisasi Variabel
+        int alpukat = 8;
+        int pisang = 10;
+        int jeruk = 4;
+        int markisa = 100;
+        // Inisialisasi Variabel
         int sirsak = 13; 
         int buah_naga = 23; 
         int langsat = 5; 
