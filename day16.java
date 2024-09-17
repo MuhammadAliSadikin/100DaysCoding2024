@@ -25,23 +25,19 @@ public class day16 {
         B2 = 8f;
         B3 = 12f;
         B4 = 16f;
+        //Dicetak menggunakan println
         System.out.println("B1 = " + B1 + "\n" + "B2 = " + B2 + "\n" + "B3 = " + B3 + "\n" + "B4 = " + B4 + "\n");
         System.out.println("---------------------");
         //Pertukaran Nilai
-        float temp;
-        temp = B1;
+        float B5;
+        B5 = B1;
         B1 = B3;
-        B3 = temp;
-        
-        temp = B2;
-        B2 = B1;
-        B1 = temp;
-        temp = B3;
         B3 = B4;
-        B4 = temp;
-      
-       
+        B4 = B2;
+        B2 = B5;
+        //Dicetak menggunakan println
         System.out.println("B1 = " + B1 + "\n" + "B2 = " + B2 + "\n" + "B3 = " + B3 + "\n" + "B4 = " + B4);
 
     }
 }
+
