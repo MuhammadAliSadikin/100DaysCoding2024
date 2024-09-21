@@ -4,7 +4,7 @@ public class day20 {
 
     public static void main(String[] args) {
         //Tipe data reference Byte
-        byte Ali, Budi, Cici, Dedi, Evi;
+        Byte Ali, Budi, Cici, Dedi, Evi;
         Ali = 20;
         Budi = 15;
         Cici = 18;
@@ -19,7 +19,7 @@ public class day20 {
 
         System.out.println("-----------------------------------------------------------------------");
         //Pertukarran Nilai
-        byte temp;
+        Byte temp;
         temp = Ali;
         Ali = Budi;
         Budi = temp;
@@ -28,19 +28,17 @@ public class day20 {
         Cici = Dedi;
         Dedi = temp;
         
-        //Melakukan penambahan nilai
-        Ali += 5;
-        Budi += 3;
-        Cici += 2;
-        Dedi += 4;
-        System.out.println("Kelereng Ali di tukar dengan punya budi dan + 5 : " + Ali);
-        System.out.println("Kelereng Budi di tukar dengan punya Ali dan + 3 : " + Budi);
-        System.out.println("Kelereng Cici di tukar dengan punya Dedi dan + 2 : " + Cici);
-        System.out.println("Kelereng Dedi di tukar dengan punya Cici dan + 4 : " + Dedi);
+        //Setelah pertukaran dan penambahan Di cetak menggunakan Print & print
+        System.out.print("Kelereng Ali di tukar dengan punya budi dan + 5 : ");
+        System.out.println(Ali+5);
+        System.out.print("Kelereng Budi di tukar dengan punya Ali dan + 3 : ");
+        System.out.println(Budi+3);
+        System.out.print("Kelereng Cici di tukar dengan punya Dedi dan + 2 : ");
+        System.out.println(Cici+2);
+        System.out.print("Kelereng Dedi di tukar dengan punya Cici dan + 4 : " );
+        System.out.println(Dedi+4);
         System.out.println("Evi Tidak melakukan pertukaran dan penambahan,Kelereng Evi tetap : "+Evi);
 
     }
-
-}
 
 }
