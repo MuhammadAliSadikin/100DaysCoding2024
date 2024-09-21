@@ -17,7 +17,7 @@ public class day20 {
         System.out.printf("Dedi memiliki %d kelereng\n", Dedi);
         System.out.printf("Evi memiliki %d kelereng\n", Evi);
 
-        System.out.println("---------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------");
         //Pertukarran Nilai
         byte temp;
         temp = Ali;
@@ -27,6 +27,7 @@ public class day20 {
         temp = Cici;
         Cici = Dedi;
         Dedi = temp;
+        
         //Melakukan penambahan nilai
         Ali += 5;
         Budi += 3;
@@ -36,7 +37,10 @@ public class day20 {
         System.out.println("Kelereng Budi di tukar dengan punya Ali dan + 3 : " + Budi);
         System.out.println("Kelereng Cici di tukar dengan punya Dedi dan + 2 : " + Cici);
         System.out.println("Kelereng Dedi di tukar dengan punya Cici dan + 4 : " + Dedi);
+        System.out.println("Evi Tidak melakukan pertukaran dan penambahan,Kelereng Evi tetap : "+Evi);
 
     }
+
+}
 
 }
