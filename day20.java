@@ -5,11 +5,11 @@ public class day20 {
     public static void main(String[] args) {
         //Tipe data reference Byte
         
-        Byte Ali = new Byte((byte)20);
-        Byte Budi = new Byte((byte)15);
-        Byte Cici = new Byte((byte)18);
-        Byte Dedi = new Byte((byte)22);
-        Byte Evi = new Byte((byte)17);
+        Byte Ali = 20;
+        Byte Budi = 15;
+        Byte Cici = 18;
+        Byte Dedi = 22;
+        Byte Evi = 17;
        
         //Dicetak menggunakan printf
         System.out.printf("Ali memiliki %d kelereng\n", Ali);
