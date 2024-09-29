@@ -25,10 +25,8 @@ public class day29 {
         Boolean cerah = false;
         if (hujan && cerah) {
             System.out.print("Hari ini turun hujan\n"+hujan);
-        }else if(cerah || hujan){
-            System.out.print("Hari ini cerah\n"+cerah);
         }else{
-            System.out.println("Hari ini Mendung");
+            System.out.println("Hari ini cerah"+cerah);
         }
            System.out.println("");       
      
