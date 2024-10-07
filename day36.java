@@ -7,25 +7,24 @@ public class day36 {
     public static void main(String[] args) {
 
         Scanner masuk = new Scanner(System.in);
-
-        System.out.print("Masukkan bilangan desimal: ");
-        double decimal = masuk.nextDouble(); // Menggunakan double untuk input
-
-        // Konversi desimal ke biner (8 digit)
-        int integerPart = (int) decimal; // Ambil bagian integer
-        String binary = String.format("%8s", Integer.toBinaryString(integerPart)).replace(' ', '0');
-        System.out.println("Bilangan biner (8 digit): " + binary);
-
-        // Inputan untuk perhitungan 77%
-        System.out.print("Masukkan bilangan bulat: ");
+        System.out.print("masukkan inputan ");
         int input = masuk.nextInt();
 
-        // Hitung 77% dari inputan
-        int hasil = (int) Math.round(input * 0.77);
-        System.out.println("77% dari " + input + " adalah: " + hasil);
+        String binary = "";
 
-        masuk.close();
+        // Konversi manual ke biner (dengan loop)
+        for (int i = 0; i < 8; i++) {
+            binary = (input % 2) + binary;
+            input /= 2;
+        }
+
+        System.out.println("hasil konversi ke binner = " + binary);
+
+        System.out.print("masukkan inputan ke dua");
+        int persen = masuk.nextInt();
+
+        // Membulatkan hasil perhitungan persentase
+        int hasilPersen = (int) (persen * 0.77);
+        System.out.println("hasil 77% dari " + persen + " adalah = " + hasilPersen);
     }
 }
-
-
