@@ -18,7 +18,7 @@ public class day38 {
         a *= b; // a = a + b
         System.out.println("Hasil Perkalian " + a); // Mencetak dengan println
         // Operator -= (Pembagian dan Pengisian)
-        System.out.print("Masukan nilai b : ");
+        System.out.print("Masukan nilai c : ");
         int c = ip.nextInt();
         System.out.print("Masukan nilai d : ");
         int d = ip.nextInt();
