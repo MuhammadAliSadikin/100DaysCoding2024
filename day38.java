@@ -16,14 +16,16 @@ public class day38 {
 
         // Operator += (Perkalian dan Pengisian)
         a *= b; // a = a + b
-        System.out.println("a *= b: a = " + a); // Mencetak dengan println
-
+        System.out.println("Hasil Perkalian " + a); // Mencetak dengan println
         // Operator -= (Pembagian dan Pengisian)
-        a /= b; // a = a - b
-        System.out.print("a /= b: a = "); // Mencetak dengan print
-        System.out.print(a); // Mencetak dengan print
+        System.out.print("Masukan nilai b : ");
+        int c = ip.nextInt();
+        System.out.print("Masukan nilai d : ");
+        int d = ip.nextInt();
+        c /= d;
+        System.out.println("Hasil Bagi : "+c);
         System.out.println(); // Mencetak baris baru
-
+       
         ip.close();
     }
 
