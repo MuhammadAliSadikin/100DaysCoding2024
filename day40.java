@@ -19,9 +19,9 @@ public class day40 {
             System.out.println(a + " = " + b);
         }
         System.out.print("Nilai C : ");
-        float c = ip.nextInt();
+        float c = ip.nextFloat();
         System.out.print("Nilai D : ");
-        float d = ip.nextInt();
+        float d = ip.nextFloat();
         if (c > d) {
             System.out.println(c + " > " + d);
         } else if (c < d) {
