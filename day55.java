@@ -6,7 +6,7 @@ public class Main {
     
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
-        //For Dencrement
+        //For Decrement
         System.out.print("Angka Besar : ");
         int a = ip.nextInt();
         System.out.print("Angka Kecil : ");
