@@ -23,14 +23,8 @@ public class day61 {
                 break;
             }
         }
-        int stop = 1;
         while (true) {   
-            System.out.println(stop+"Halo");
-            stop++;
-            if (stop >= 5) {
-                break;
-            }
-
+            System.out.println("DUA LAH");
         }
 
     }
