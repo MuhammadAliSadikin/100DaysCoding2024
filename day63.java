@@ -1,10 +1,10 @@
 package pkg100h_ngoding;
 
-import java.util.Scanner;
 
 public class day63 {
 
     public static void main(String[] args) {
+        //Keyword continue
         System.out.println("Angka Genap Dilewati");
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
