@@ -21,13 +21,13 @@ public class soal3 {
                     double sisi = ip.nextDouble();
                     double luaspersegi = hitungluaspersegi(sisi);
                     System.out.println("Luas persegi : " + luaspersegi);
-                    break outerloop;
+                    break;
                 case 2:
                     System.out.print("Masukkan Jari-jari : ");
                     double jari2 = ip.nextDouble();
                     double luaslingkaran = hitungluaslingkaran(jari2);
                     System.out.println("Luas Lingkaran : " + luaslingkaran);
-                    break outerloop;
+                    break;
                 case 3:
                     System.out.print("Masukkan Alas : ");
                     double alas = ip.nextDouble();
@@ -35,10 +35,10 @@ public class soal3 {
                     double tinggi = ip.nextDouble();
                     double luassegitiga = hitungluassegitiga(alas, tinggi);
                     System.out.println("Luas Segitiga : " + luassegitiga);
-                    break outerloop;
+                    break;
                 case 4:
                     System.out.println("program selesai");
-                    break outerloop ;
+                    break outerloop;
                 default:
                     System.out.println("Pilihan tidak ada ");
 
