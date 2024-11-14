@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class day74 {
 
     public static void main(String[] args) {
-        try (Scanner ip = new Scanner(System.in)) {
+        Scanner ip = new Scanner(System.in)) {
             System.out.print("Masukkan inputan : ");
             String input = ip.nextLine();
             int a = input.length();
@@ -29,6 +29,7 @@ public class day74 {
             }else{
                 System.out.println("Program selesai");
             }
+            ip.close();
         }
     }
 }
