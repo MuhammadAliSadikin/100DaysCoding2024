@@ -35,6 +35,6 @@ public class day77 {
             System.out.println("Maaf, kesempatan Anda habis! Kata rahasianya adalah " + kataRahasia + ".");
         }
 
-        scanner.close();
+        ip.close();
     }
 }
