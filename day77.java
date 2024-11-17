@@ -6,7 +6,7 @@ import java.util.Random;
 public class day77 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner ip = new Scanner(System.in);
         Random random = new Random();
 
         String[] kataKata = {"apel", "pisang", "jeruk", "mangga", "semangka"};
@@ -21,7 +21,7 @@ public class day77 {
         while (kesempatan > 0 && !tebakan.equals(kataRahasia)) {
             System.out.println("Kesempatan tersisa: " + kesempatan);
             System.out.print("Tebakan Anda: ");
-            tebakan = scanner.nextLine();
+            tebakan = ip.nextLine();
 
             if (tebakan.equals(kataRahasia)) {
                 System.out.println("Selamat! Anda berhasil menebak kata " + kataRahasia + "!");
