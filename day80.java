@@ -6,7 +6,7 @@ public class day80 {
 
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
-        System.out.println("Login ke anda ");
+        System.out.println("Login ke akun anda ");
         System.out.print("Email : ");
         String email = ip.nextLine();
         System.out.print("Masukkan kata sandi : ");
