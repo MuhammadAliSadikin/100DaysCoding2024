@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class day86 {
     public static void main (String[]args){
-        Scanner ip = new Scanner(System.in);
         String[] nama = {"Andi", "Budi", "Cici", "Dedi"};
         int index = 0;
         System.out.println("Elemen array dengan indeks:");
