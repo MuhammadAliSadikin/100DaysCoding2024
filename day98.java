@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class day78 {
+public class day98 {
     public static void main (String[]args){
         Scanner ip = new Scanner(System.in);
         System.out.print("Nilai x : ");
